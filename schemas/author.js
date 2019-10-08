@@ -26,6 +26,11 @@ export default {
       }
     },
     {
+    name: 'photo',
+    title: 'photo',
+    type: 'image',
+    },
+    {
       name: 'bio',
       title: 'Bio',
       type: 'array',
