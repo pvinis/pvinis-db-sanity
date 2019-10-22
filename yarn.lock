@@ -826,9 +826,9 @@
     rxjs "^6.1.0"
     scroll "^2.0.0"
 
-"@sanity/core@0.142.6":
-  version "0.142.6"
-  resolved "https://registry.yarnpkg.com/@sanity/core/-/core-0.142.6.tgz#05e306f1be7953dddbede22277f0b64c8bacfc0b"
+"@sanity/core@0.142.9":
+  version "0.142.9"
+  resolved "https://registry.yarnpkg.com/@sanity/core/-/core-0.142.9.tgz#a5a9a24f048d37642cc152455972031efc92b500"
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.5.5"
     "@babel/preset-env" "^7.6.0"
@@ -841,7 +841,7 @@
     "@sanity/mutator" "0.142.6"
     "@sanity/plugin-loader" "0.142.6"
     "@sanity/resolver" "0.142.6"
-    "@sanity/schema" "0.142.6"
+    "@sanity/schema" "0.142.9"
     "@sanity/server" "0.142.6"
     "@sanity/util" "0.142.6"
     "@sanity/uuid" "0.142.0"
@@ -1211,6 +1211,18 @@
 "@sanity/schema@0.142.6":
   version "0.142.6"
   resolved "https://registry.npmjs.org/@sanity/schema/-/schema-0.142.6.tgz#de42f25d10996c8f2b7c3629808217234256e7cf"
+  dependencies:
+    "@sanity/generate-help-url" "0.142.0"
+    arrify "^1.0.1"
+    humanize-list "^1.0.1"
+    json-reduce "^1.0.0"
+    leven "^2.1.0"
+    lodash "^4.17.4"
+    object-inspect "^1.6.0"
+
+"@sanity/schema@0.142.9":
+  version "0.142.9"
+  resolved "https://registry.yarnpkg.com/@sanity/schema/-/schema-0.142.9.tgz#e42d30b68922593f9565123378d5461f1e8ac042"
   dependencies:
     "@sanity/generate-help-url" "0.142.0"
     arrify "^1.0.1"
