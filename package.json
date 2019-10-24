@@ -28,6 +28,6 @@
     "sanity-plugin-minesweeper": "0.0.3"
   },
   "devDependencies": {
-    "@sanity/cli": "^0.144.0"
+    "@sanity/cli": "0.144.0"
   }
 }
