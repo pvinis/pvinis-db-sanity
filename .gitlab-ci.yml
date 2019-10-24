@@ -10,4 +10,4 @@ do-it:
     - yarn config set cache-folder .yarn
     - yarn install
   script:
-    - yarn deploy
+    - SANITY_AUTH_TOKEN=$SANITY_AUTH_TOKEN yarn deploy
