@@ -42,7 +42,27 @@ export default {
           lists: []
         }
       ]
-    }
+    },
+    {
+    name: 'github',
+    title: 'github',
+    type: 'string',
+    },
+        {
+    name: 'twitter',
+    title: 'twitter',
+    type: 'string',
+    },
+        {
+    name: 'skype',
+    title: 'skype',
+    type: 'string',
+    },
+        {
+    name: 'twitch',
+    title: 'twitch',
+    type: 'string',
+    },
   ],
   preview: {
     select: {
