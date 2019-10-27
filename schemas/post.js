@@ -24,14 +24,6 @@ export default {
       to: {type: 'author'}
     },
     {
-      name: 'mainImage',
-      title: 'Main image',
-      type: 'image',
-      options: {
-        hotspot: true
-      }
-    },
-    {
       name: 'categories',
       title: 'Categories',
       type: 'array',
@@ -45,7 +37,7 @@ export default {
     {
       name: 'body',
       title: 'Body',
-      type: 'blockContent'
+      type: 'markdown'
     }
   ],
 

@@ -1,0 +1,15 @@
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+    - .yarn
+
+do-it:
+  only:
+    - master
+  before_script:
+    - yarn config set cache-folder .yarn
+    - yarn install
+  script:
+    - SANITY_AUTH_TOKEN=$SANITY_AUTH_TOKEN yarn deploy
